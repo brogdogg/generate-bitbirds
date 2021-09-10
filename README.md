@@ -20,15 +20,19 @@ The dependenices were all installed with the terminal/command line. There is doc
 
 - Python 3 (default on my mac was python 2.7)
 
-- PIP - a command-line installation mechanism for python assets. 
+- PIP - a command-line installation mechanism for python assets, installed by default with latest versions of Python.
 
-IIRC I needed to use some special command with python 3 to use pip as an installation mechanism for the items below- perhaps `pip3 install ...` rather than `pip install ...`?
+This project depends on a couple Python modules:
 
-- Pillow - python library to generate images - installed via terminal/command-line with PIP
+- `Pillow` - to generate images; see the [PyPi module page](https://pypi.org/project/Pillow/) for more details.
+- `NumPy` - to work with arrays; see the [PyPi module page](https://pypi.org/project/numpy/) for more details.
 
-- NumPy - python library to work with arrays - installed via terminal/command-line with PIP
+The [requirements.txt](./requirements.txt) file contains these requirements with known working versions.  This
+file may be used with `pip` to install:
 
-- I don't *think* I had to install the 'random' library (included in the script) to use the number-randomization feature, but might have.
+```bash
+pip install -r requirements.txt
+```
 
 If you encounter specific setup items I haven't mentioned here let me know, and I'll add them.
 
